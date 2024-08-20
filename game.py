@@ -44,6 +44,7 @@ class Board:
         self.board[7][2] = self.board[7][5] = Bishop('white')
         self.board[7][3] = Queen('white')
         self.board[7][4] = King('white')
+        print("Game started");
 
     def print_board(self):
         for row in self.board:
