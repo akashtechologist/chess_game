@@ -75,8 +75,9 @@ class Game:
             end = (int(end[0]), int(end[1]))
 
             self.board.move_piece(start, end)
-            self.turn = 'black' if self.turn == 'white' else 'white'
+
 
 if __name__ == '__main__':
     game = Game()
     game.play()
+    print("game end");
